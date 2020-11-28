@@ -1,6 +1,6 @@
-# Sdc
+# SPA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+SPA for Super Duper Calendar.
 
 ## Development server
 
@@ -20,7 +20,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npx cypress open` to open [Cypress](https://www.cypress.io/) GUI.
 
 ## Further help
 
