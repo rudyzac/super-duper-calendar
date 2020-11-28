@@ -1,6 +1,6 @@
 using System;
 
-namespace SDC.WebAPI
+namespace SDC
 {
     public class WeatherForecast
     {
