@@ -4,6 +4,7 @@ import { FullCalendarModule } from '@fullcalendar/angular';
 import dayGridPlugin from '@fullcalendar/daygrid';
 
 import { AppComponent } from './app.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 FullCalendarModule.registerPlugins([
   dayGridPlugin
@@ -11,7 +12,8 @@ FullCalendarModule.registerPlugins([
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,

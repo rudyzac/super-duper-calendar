@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CalendarOptions } from '@fullcalendar/angular';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ import { CalendarOptions } from '@fullcalendar/angular';
 })
 export class AppComponent {
   title = 'sdc';
-
-  calendarOptions: CalendarOptions = {
-    initialView: 'dayGridMonth'
-  };
 }
