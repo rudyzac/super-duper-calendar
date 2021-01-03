@@ -20,7 +20,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `npx cypress open` to open [Cypress](https://www.cypress.io/) GUI.
+### Cypress GUI
+- Run `npx cypress open` to open [Cypress](https://www.cypress.io/) GUI.
+
+### Command line
+
+- Run `npx cypress run` to run all tests.
+- Run `npx cypress run --spec "file_path"` to run a single test file instead of all tests.
+  - Example: `npx cypress run --spec "cypress/integration/homepage_spec.ts"`
 
 ## Further help
 
