@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 export interface Appointment {
-  id: number;
+  id: string;
   title: string;
   allDay: boolean;
   startDate: string;
