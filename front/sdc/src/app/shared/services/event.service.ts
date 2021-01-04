@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-export interface Appointment {
+export interface Event {
   id: string;
   title: string;
   allDay: boolean;
@@ -11,7 +11,7 @@ export interface Appointment {
 @Injectable({
   providedIn: 'root'
 })
-export class AppointmentService {
+export class EventService {
 
   constructor() { }
 }
