@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace SDC.Tests
+namespace SDC.UseCases.Tests
 {
     public class UnitTest1
     {
