@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SDC.Core
 {
-    interface IRepository
+    public interface IEventRepository
     {
+        
     }
 }
