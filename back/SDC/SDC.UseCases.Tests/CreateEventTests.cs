@@ -12,7 +12,7 @@ namespace SDC.UseCases.Tests
         {
             // ARRANGE
             var expected = new EventEntity();
-            var stubRepository = new Mock<IEventRepository>();
+            var stubRepository = new Mock<IEventRepository>().Object;
             var useCase = new CreateEventUseCase(stubRepository);
 
             // ACT
