@@ -27,4 +27,8 @@
     <ProjectReference Include="..\SDC.UseCases\SDC.UseCases.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RegressionSuite\" />
+  </ItemGroup>
+
 </Project>
