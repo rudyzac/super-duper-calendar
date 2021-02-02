@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RegressionSuite\" />
+    <Folder Include="RegressionSuite\Integration\" />
   </ItemGroup>
 
 </Project>
