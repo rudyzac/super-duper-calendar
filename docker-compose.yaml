@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  webapi:
+    build: ./WebAPI/WebAPI
+    ports:
+      - "5001:5001"   #5000:5000
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - webapi
+    ports:
+      - "4000:4000"
+  webspa:
+    build: ./web-spa
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    volumes:
+       - ./web-spa:/app
+       - '/app/node_modules'
